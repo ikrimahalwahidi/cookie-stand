@@ -99,7 +99,7 @@ padding: 2px;
 tr:last-child>td:last-child {
 color: #8ab6d6;
 font-weight: bold;
-font-size: 1.1em;
+font-size: 10px;
 }
 
 th:first-child, td:first-child {
