@@ -1,7 +1,107 @@
-table , th , tr , td{
-  border: solid 1px black;
-  color: rgb(255, 0, 0);
-  background-color: rgb(238, 234, 234);
-  text-decoration-color: rgb(185, 250, 228);
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Lato', Arial, sans-serif, Times, serif;
 }
 
+body {
+  background-color: #fbe0c4;
+}
+
+header {
+  background-color: #0061a8;
+  height: 50px;
+padding: 10px;
+font-size: 1.5em;
+}
+header a {
+  color: #fbe0c4;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #8ab6d6;
+}
+
+nav {
+  overflow: hidden;
+}
+
+nav li {
+  list-style: none;
+  float: right;
+  margin-right: 20px;
+}
+
+main {
+  padding: 25px;
+  color: #8ab6d6;
+}
+
+li {
+  list-style: none;
+}
+
+main>li {
+  margin: 0px 0px 30px 0px;
+}
+#sale-lists, #cookie-tosser-lists {
+overflow: hidden;
+width: 1350px;
+margin: 10px auto;
+}
+
+#nav-logo {
+float: left;
+font-size: 30px;
+font-weight: normal;
+}
+
+.centered {
+display: block;
+text-align: center;
+margin: auto;
+}
+
+.logo {
+padding: 25px;
+font-size: 4em;
+}
+
+.salmon-fish {
+font-family:Verdana, fantasy, Tahoma, sans-serif;
+}
+
+
+table {
+border: 5px solid #2978b5;
+border-radius: 25px;
+padding: 10px;
+text-align: center;
+
+border-spacing: 0;
+}
+
+th {
+border-bottom: 2px solid #2978b5;
+margin: 0;
+padding: 0;
+font-weight: bold;
+font-size: 1.1em;
+}
+
+td {
+margin: 0;
+padding: 2px;
+}
+
+tr:last-child>td:last-child {
+color: #8ab6d6;
+font-weight: bold;
+font-size: 1.1em;
+}
+
+th:first-child, td:first-child {
+border-right: 2px solid #2978b5;
+}
