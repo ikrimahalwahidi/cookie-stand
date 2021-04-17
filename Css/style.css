@@ -1,76 +1,69 @@
 * {
   box-sizing: border-box;
-  padding: 0px;
-  margin: 0px;
   font-family: 'Lato', Arial, sans-serif, Times, serif;
+  text-decoration :none;
+
+  list-style: none;
+  
 }
 
 body {
-  background-color: #fbe0c4;
+  background-color: #f5e8db;
+}
+.logo{
+  width: 120px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
 }
 
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
 header {
   background-color: #0061a8;
-  height: 50px;
-padding: 10px;
-font-size: 1.5em;
-}
-header a {
-  color: #fbe0c4;
-  text-decoration: none;
+  height: 40px;
+padding-bottom: 10px;
+font-size: 30px;
 }
 
 header a:hover {
   color: #8ab6d6;
-}
 
-nav {
-  overflow: hidden;
+ 
 }
-
+#h1{
+  text-decoration-style: none;
+  
+}
 nav li {
-  list-style: none;
+ 
+  
   float: right;
-  margin-right: 20px;
+  margin-right: 30px;
+  text-decoration: none;
 }
+
 
 main {
   padding: 25px;
   color: #8ab6d6;
-}
-
-li {
-  list-style: none;
-}
-
-main>li {
-  margin: 0px 0px 30px 0px;
-}
-#sale-lists, #cookie-tosser-lists {
-overflow: hidden;
-width: 1350px;
-margin: 10px auto;
+  
+  
 }
 
 #nav-logo {
 float: left;
 font-size: 30px;
 font-weight: normal;
-}
 
-.centered {
-display: block;
-text-align: center;
-margin: auto;
-}
 
-.logo {
-padding: 25px;
-font-size: 4em;
-}
-
-.salmon-fish {
-font-family:Verdana, fantasy, Tahoma, sans-serif;
 }
 
 
@@ -80,28 +73,16 @@ border-radius: 25px;
 padding: 10px;
 text-align: center;
 
+
 border-spacing: 0;
 }
 
 th {
 border-bottom: 2px solid #2978b5;
-margin: 0;
-padding: 0;
 font-weight: bold;
 font-size: 1.1em;
+
+
 }
 
-td {
-margin: 0;
-padding: 2px;
-}
 
-tr:last-child>td:last-child {
-color: #8ab6d6;
-font-weight: bold;
-font-size: 10px;
-}
-
-th:first-child, td:first-child {
-border-right: 2px solid #2978b5;
-}
