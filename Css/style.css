@@ -25,14 +25,17 @@ header a:hover {
 }
 
 nav {
+  
   overflow: hidden;
 }
 
 nav li {
+ 
   list-style: none;
   float: right;
   margin-right: 20px;
 }
+
 
 main {
   padding: 25px;
@@ -105,3 +108,4 @@ font-size: 1.1em;
 th:first-child, td:first-child {
 border-right: 2px solid #2978b5;
 }
+
